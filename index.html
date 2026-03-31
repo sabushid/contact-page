@@ -48,8 +48,8 @@
       "url": "https://rushanet.com",
       "image": "https://realestate.rushanet.com/brand_logo.png",
       "description": "AI solutions company specializing in custom AI agents, WordPress development, SEO, lead automation, and team training for Montreal & South Shore businesses.",
-      "email": "sabushid@gmail.com",
-      "telephone": "(514) 555-0123",
+      "email": "info@rushanet.com",
+      "telephone": "+1 514 466 9402",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "Montreal",
@@ -72,8 +72,8 @@
       "contactPoint": {
         "@type": "ContactPoint",
         "contactType": "customer service",
-        "email": "sabushid@gmail.com",
-        "telephone": "(514) 555-0123",
+        "email": "info@rushanet.com",
+        "telephone": "+1 514 466 9402",
         "availableLanguage": ["English", "French"]
       },
       "priceRange": "$$"
@@ -458,13 +458,13 @@
         <div class="contact-card reveal">
           <div class="contact-icon">&#128231;</div>
           <h3 data-i18n="info1_title">Email</h3>
-          <div class="contact-detail"><a href="mailto:sabushid@gmail.com">sabushid@gmail.com</a></div>
+          <div class="contact-detail"><a href="mailto:info@rushanet.com">info@rushanet.com</a></div>
           <p data-i18n="info1_desc">Email us anytime. We respond within 24 hours.</p>
         </div>
         <div class="contact-card reveal">
           <div class="contact-icon">&#128222;</div>
           <h3 data-i18n="info2_title">Phone</h3>
-          <div class="contact-detail"><a href="tel:+15145550123">(514) 555-0123</a></div>
+          <div class="contact-detail"><a href="tel:+15144669402">+1 514 466 9402</a></div>
           <p data-i18n="info2_desc">Call us Monday&ndash;Friday, 9am&ndash;6pm EST.</p>
         </div>
         <div class="contact-card reveal">
@@ -749,7 +749,7 @@
       var form = e.target, btn = document.getElementById('form-btn'), err = document.getElementById('form-error');
       btn.disabled = true; btn.textContent = currentLang === 'fr' ? 'Envoi en cours...' : 'Sending...'; err.style.display = 'none';
       try {
-        var res = await fetch('https://formsubmit.co/ajax/sabushid@gmail.com', { method: 'POST', headers: { 'Accept': 'application/json' }, body: new FormData(form) });
+        var res = await fetch('https://formsubmit.co/ajax/info@rushanet.com', { method: 'POST', headers: { 'Accept': 'application/json' }, body: new FormData(form) });
         if (res.ok) { form.style.display = 'none'; document.getElementById('form-success').style.display = 'block'; }
         else { throw new Error(); }
       } catch(x) {
